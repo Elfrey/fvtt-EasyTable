@@ -371,7 +371,7 @@ class EasyTable {
         if (!separator) {
             separator = ',';
         }
-        let results = game.tables.get(li.data("entityId")).data.results
+        let results = game.tables.get(li.data("document-id")).data.results
         let output = '';
         let index = 0;
         let separatorIssue = false;
